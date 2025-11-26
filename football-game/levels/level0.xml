@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level width="1024" height="1024" start-y="572" start-x="700">
+	<declarations>
+		<background id="i001" image="background0.png"/>
+		<platform id="i005" left-image="metalLeft.png" mid-image="metalMid.png" right-image="metalRight.png"/>
+		<movingplatform id="i007" left-image="metalLeft.png" mid-image="metalMid.png" right-image="metalRight.png"/>
+	</declarations>
+	<items>
+		<background id="i001" x="512" y="512"/>
+		<platform id="i005" x="464" y="720" width="200" height="32"/>
+		<movingplatform id="i007" cx = "600" cy = "720" width="150"
+						radius="100" omega="1.5"/>
+	</items>
+</level>

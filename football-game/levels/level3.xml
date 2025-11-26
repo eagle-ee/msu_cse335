@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level width="4024" height="1024" start-y="872" start-x="250">
+	<declarations>
+		<background id="i002" image="background1.png"/>
+		<platform id="i003" left-image="grassLeft.png" mid-image="grassMid.png" right-image="grassRight.png"/>
+		<platform id="i005" left-image="metalLeft.png" mid-image="metalMid.png" right-image="metalRight.png"/>
+		<movingplatform id="i006" left-image="metalLeft.png" mid-image="metalMid.png" right-image="metalRight.png"/>
+		<wall id="i007" image="wall1.png"/>
+		<wall id="i008" image="wall2.png"/>
+		<coin id="i009" image="coin10.png" value="10"/>
+		<coin id="i010" image="coin100.png" value="100"/>
+		<power-up id="i011" image="sparty.png"/>
+		<goalpost id="i012" image="goalpost.png"/>
+		<enemy id="i013" image="U-M.png"/>
+		<enemy id="i014" image="ND.png"/>
+	</declarations>
+	<items>
+		<background id="i002" x="-2048" y="512"/>
+		<background id="i002" x="-1024" y="512"/>
+		<background id="i002" x="0" y="512"/>
+		<background id="i002" x="1024" y="512"/>
+		<background id="i002" x="2048" y="512"/>
+		<background id="i002" x="3048" y="512"/>
+		<background id="i002" x="4072" y="512"/>
+		<background id="i002" x="5096" y="512"/>
+		<background id="i002" x="6120" y="512"/>
+		<background id="i002" x="7144" y="512"/>
+		<background id="i002" x="8168" y="512"/>
+		<background id="i002" x="9192" y="512"/>
+
+		<platform id="i003" x="464" y="920" width="660" height="86"/>
+		<platform id="i003" x="1964" y="920" width="1024" height="86"/>
+		<platform id="i003" x="4000" y="920" width="1024" height="86"/>
+
+		<movingplatform id="i006" cx = "1100" cy = "920" width="128"
+						radius="100" omega="1."/>
+
+		<coin id="i009" x="1100" y="820"/>
+		<coin id="i009" x="1171" y="870"/>
+		<coin id="i009" x="1200" y="920"/>
+		<coin id="i009" x="1171" y="970"/>
+		<coin id="i009" x="1100" y="1020"/>
+		<coin id="i009" x="1029" y="970"/>
+		<coin id="i009" x="1000" y="920"/>
+		<coin id="i010" x="1100" y="680"/>
+
+		<movingplatform id="i006" cx = "400" cy = "500" width="96"
+						radius="100" omega="1.5"/>
+
+		<movingplatform id="i006" cx = "1800" cy = "620" width="128"
+						radius="200" omega="1.5"/>
+		<coin id="i009" x="1800" y="420"/>
+		<coin id="i009" x="1941" y="479"/>
+		<coin id="i009" x="2000" y="620"/>
+		<coin id="i009" x="1941" y="761"/>
+		<coin id="i009" x="1800" y="820"/>
+		<coin id="i009" x="1659" y="761"/>
+		<coin id="i009" x="1600" y="620"/>
+		<coin id="i009" x="1659" y="479"/>
+		<coin id="i010" x="1800" y="520"/>
+
+		<wall id="i007" x="2150" y="760" width="32" height="128"/>
+
+		<power-up id="i011" x="600" y="50"/>
+
+		<enemy id="i013" x="1100" y="680"/>
+		<enemy id="i014" x="2200" y="780"/>
+		<enemy id="i013" x="3800" y="680"/>
+		<enemy id="i014" x="3600" y="680"/>
+
+
+		<coin id="i010" x="4150" y="580"/>
+		<coin id="i010" x="4050" y="580"/>
+		<coin id="i010" x="3800" y="880"/>
+		<coin id="i010" x="3600" y="880"/>
+		<goalpost id="i012" x="4400" y="780"/>
+
+		<movingplatform id="i006" cx = "2800" cy = "620" width="128"
+						radius="200" omega="1."/>
+		<coin id="i009" x="2800" y="420"/>
+		<coin id="i009" x="2941" y="479"/>
+		<coin id="i009" x="3000" y="620"/>
+		<coin id="i009" x="2941" y="761"/>
+		<coin id="i009" x="2800" y="820"/>
+		<coin id="i009" x="2659" y="761"/>
+		<coin id="i009" x="2600" y="620"/>
+		<coin id="i009" x="2659" y="479"/>
+		<movingplatform id="i006" cx = "3200" cy = "620" width="128"
+						radius="200" omega="1.1"/>
+		<coin id="i009" x="3200" y="420"/>
+		<coin id="i009" x="3341" y="479"/>
+		<coin id="i009" x="3400" y="620"/>
+		<coin id="i009" x="3341" y="761"/>
+		<coin id="i009" x="3200" y="820"/>
+		<coin id="i009" x="3059" y="761"/>
+		<coin id="i009" x="3059" y="479"/>
+
+	</items>
+</level>
