@@ -2,7 +2,7 @@
 
 An adventure game in which you are a football, trying to get a touchdown.
 
-###project1.exe is game executable
+### project1.exe is game executable
 
 Built in CLion
 
