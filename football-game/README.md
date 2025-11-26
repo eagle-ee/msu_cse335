@@ -6,6 +6,6 @@ An adventure game in which you are a football, trying to get a touchdown.
 
 Built in CLion
 Scrum development
--6 student team
--2 day sprints
--Trello meeting management (code review, risks, tasks)
+6 student team
+2 day sprints
+Trello meeting management (code review, risks, tasks)
